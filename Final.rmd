@@ -58,6 +58,20 @@ colPerc(table1)
 
 The table demonstrates that males who receive the vaccine are more likely to remain uninfected and not contract the virus.
 
+### Inferential Results
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+ftestM=fisher.test(table1)
+ftestM
+effecM=ftestM$estimate/(ftestM$estimate+1)*100
+```
+
+The inferential results indicate significant findings. The chi-squared test yielded a p-value of 0.00000000000012, which is smaller than the chosen significance level of 0.05, leading us to reject the null hypothesis. Similarly, Fisher's exact test provided a p-value of 0.00000000000019, further supporting the rejection of the null hypothesis. Additionally, the odds ratio shows that males who took the placebo are 1.7 times more likely to contract COVID-19 compared to those who received the vaccine. This finding highlights the substantial protective effect of the vaccine in preventing COVID-19 cases among males, underscoring its importance in reducing infection rates and promoting public health.
+
+
+
 ## Females
 
 
