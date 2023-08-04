@@ -183,7 +183,6 @@ The chi-squared test gives a p-value of 0, which is  less than 0.05,so we reject
 
 ### Summary
 
-
-
+The analysis reveals that the vaccine has no discernible effect on drug users, as those who took the vaccine exhibited the highest rate of contracting the virus. Furthermore, the drug's efficacy is calculated at 15.1, indicating ineffectiveness within the DrugUsers subgroup. Given these findings, I cannot recommend the vaccine for individuals classified as drug users, as it does not appear to offer significant protection against COVID-19 in this specific subgroup
 
 # Overall Results and Conclusions
