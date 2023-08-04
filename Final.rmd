@@ -85,6 +85,15 @@ barchartGC(~infected + treatment,data=Females, type="percent")
 
 According to the plot, females who received the placebo exhibit a higher risk of contracting the virus compared to other groups.
 
+### Numerical Descriptive Results
+
+```{r}
+table1 <- xtabs(~infected + treatment,data=Females)
+rowPerc(table1)
+colPerc(table1)
+```
+
+The table indicates that females who took the placebo are at a higher likelihood of contracting the virus.
 
 ## LGBTQ
 
