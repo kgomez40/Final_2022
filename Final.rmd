@@ -75,6 +75,15 @@ The inferential results indicate significant findings. The chi-squared test yiel
 For males, it is observed from the analysis and from the efficacy that the vaccine is effective in preventing them from getting the virus. For this reason, I recommend males to take the vaccine.
 
 ## Females
+### Graphical Descriptive Results
+
+```{r}
+barchartGC(~infected + treatment,data=Females)
+barchartGC(~infected + treatment,data=Females, type="percent")
+
+```
+
+According to the plot, females who received the placebo exhibit a higher risk of contracting the virus compared to other groups.
 
 
 ## LGBTQ
