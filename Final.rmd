@@ -171,8 +171,15 @@ From this table, the drug users that took the vaccine have a greater risk of get
 
 ### Inferential Results
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+ftestDrugUser=fisher.test(table1)
+ftestDrugUser
+effecDrugUser=ftestDrugUser$estimate/(ftestDrugUser$estimate+1)*100
+```
 
-
+The chi-squared test gives a p-value of 0, which is  less than 0.05,so we reject the null hypothesis. On Fisher's exact test, the odds ratio says that the DrugUsers that took the vaccine are 0.013 more likely to get covid19 than those that took the placebo.  
 
 ### Summary
 
