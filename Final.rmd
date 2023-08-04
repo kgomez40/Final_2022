@@ -108,6 +108,10 @@ effecF=ftestF$estimate/(ftestF$estimate+1)*100
 
 The chi-squared test yielded a p-value of 0.00027, which is less than the significance level of 0.05, leading us to reject the Null hypothesis. Similarly, Fisher's exact test resulted in a p-value of 0.00022, further supporting the rejection of the null hypothesis. Additionally, the odds ratio indicates that females who took the placebo are 1.4 times more likely to contract COVID-19 compared to those who received the vaccine. This finding underscores the importance of vaccination in reducing the risk of COVID-19 among females and emphasizes the vaccine's protective effect in this subgroup.
 
+### Summary
+
+In conclusion, based on the analysis and the observed drug efficacy (58.8%), it is evident that females who take the vaccine are more likely to remain uninfected and not contract the virus. Therefore, I strongly recommend that females in this subgroup should opt for the vaccine to protect themselves against COVID-19.
+
 ## LGBTQ
 
 
