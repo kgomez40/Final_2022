@@ -120,7 +120,19 @@ barchartGC(~infected + treatment,data=LGBTQ)
 barchartGC(~infected + treatment,data=LGBTQ, type="percent")
 ```
 
-From this plot, in the subgroup LGBTQ, the people that took the placebo have a greater percentage of contracting the covid19 as compared to those that took the vaccine, they have a lower percentage of contracting covid19.  
+From this plot, in the subgroup LGBTQ, the people that took the placebo have a greater percentage of contracting the covid19 as compared to those that took the vaccine, they have a lower percentage of contracting covid19. 
+
+### Numerical Descriptive Results
+
+```{r}
+table1 <- xtabs(~infected + treatment,data=LGBTQ)
+rowPerc(table1)
+colPerc(table1)
+```
+
+The table shows that, in the LGBTQ subgroup, those that took the placebo have a greater rate of getting covid19(69.75) while those that took the vaccine have lower rate of getting covid19(30.25).  
+
+
 
 ## Druggies
 
