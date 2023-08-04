@@ -113,8 +113,14 @@ The chi-squared test yielded a p-value of 0.00027, which is less than the signif
 In conclusion, based on the analysis and the observed drug efficacy (58.8%), it is evident that females who take the vaccine are more likely to remain uninfected and not contract the virus. Therefore, I strongly recommend that females in this subgroup should opt for the vaccine to protect themselves against COVID-19.
 
 ## LGBTQ
+### Graphical Descriptive Results
 
+```{r}
+barchartGC(~infected + treatment,data=LGBTQ)
+barchartGC(~infected + treatment,data=LGBTQ, type="percent")
+```
 
+From this plot, in the subgroup LGBTQ, the people that took the placebo have a greater percentage of contracting the covid19 as compared to those that took the vaccine, they have a lower percentage of contracting covid19.  
 
 ## Druggies
 
