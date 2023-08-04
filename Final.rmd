@@ -159,11 +159,23 @@ barchartGC(~infected + treatment,data=DrugUser, type="percent")
 
 Based on this plot, it is evident that among the drug users, taking the vaccine appears to be associated with a higher risk of contracting COVID-19.
 
+### Numerical Descriptive Results
+
+```{r}
+table1 <- xtabs(~infected + treatment,data=DrugUser)
+rowPerc(table1)
+colPerc(table1)
+```
+
+From this table, the drug users that took the vaccine have a greater risk of getting covid19(88.33).   
+
 ### Inferential Results
 
 
 
+
 ### Summary
+
 
 
 
