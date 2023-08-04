@@ -144,6 +144,10 @@ effecLGBTQ=ftestLGBTQ$estimate/(ftestLGBTQ$estimate+1)*100
 
 Both the p-value of the fisher's exact test and the chi-squared test causes us to reject the null hypothesis because they are less than 0.05. The odds ratio tells us that the LGBTQ subgroup that took the placebo are 1.43 times more likely to contract covid19 than those that took the vaccine.
 
+### Summary
+
+In conclusion, based on the analysis and the observed vaccine efficacy within the LGBTQ subgroup (58.8%), it is strongly recommended that the vaccine should be administered to individuals in this subgroup.
+
 ## Druggies
 
 
