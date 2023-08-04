@@ -33,10 +33,11 @@ $H_0$: The new preventative vaccine (COVID921) does not exhibit any significant 
 
 $H_A$: The new preventative vaccine (COVID921) does exhibit significant differences in effectiveness across the variety of subpopulations tracked, including different genders (guys and gals), drug use, and sexual orientation.
 
+## Methods
+
+This dataset involves categorical variables, as both the vaccine's effectiveness and the subgroups can be categorized. The categorical nature of the variables allows us to use appropriate statistical methods for analysis. A barplot will be utilized to visually present the results, while a data table will summarize the numerical outcomes. Inferential statistics will be employed, specifically the chi-squared test and Fisher's exact test, to examine differences among the four subgroups.
+
 ## Males
-
-## Graphical Descriptive Results
-
 
 
 ## Females
