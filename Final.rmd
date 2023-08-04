@@ -130,9 +130,19 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
-The table shows that, in the LGBTQ subgroup, those that took the placebo have a greater rate of getting covid19(69.75) while those that took the vaccine have lower rate of getting covid19(30.25).  
+The table shows that, in the LGBTQ subgroup, those that took the placebo have a greater rate of getting covid19(69.75) while those that took the vaccine have lower rate of getting covid19(30.25). 
 
+### Inferential Results
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+ftestLGBTQ=fisher.test(table1)
+ftestLGBTQ
+effecLGBTQ=ftestLGBTQ$estimate/(ftestLGBTQ$estimate+1)*100
+```
+
+Both the p-value of the fisher's exact test and the chi-squared test causes us to reject the null hypothesis because they are less than 0.05. The odds ratio tells us that the LGBTQ subgroup that took the placebo are 1.43 times more likely to contract covid19 than those that took the vaccine.
 
 ## Druggies
 
